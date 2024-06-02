@@ -6,6 +6,7 @@ Main background - #D4A76A*/
 body{
     height:100vh;
 }
+
 header {
     background-color: #FFDBAA;
     color: #553100;
@@ -19,6 +20,7 @@ header {
     justify-content: space-between;
 }
 main {
+    border-top: 3px solid black;
     background-color:#D4A76A;
     width: 100%;
     height: 100%;
@@ -29,8 +31,72 @@ main {
     color: white;
     height: 100px;
     width: 180px;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
     margin-right: 50px;
     border-width: 0px;
+}
+
+.trip_container {
+    height: 350px;
+    width: 500px;
+    background-color: white;
+    box-sizing:border-box;
+    margin: 10px;
+    padding:10px;
+    position:relative;
+    box-shadow: 0 0 10px;
+}
+
+h1 {
+    text-align:center;
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 28px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.info_container {
+    height: 350px;
+    width: 90%;
+    background-color: white;
+    box-sizing:border-box;
+    margin: 10px;
+    padding:10px;
+    position:relative;
+    box-shadow: 0 0 10px;
+}
+
+.flightButton {
+    background-color: #805215;
+    color: white;
+    height: 100px;
+    width: 450px;
+    font-size: 30px;
+    font-weight: bold;
+    border-width: 2px;
+}
+
+.center {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+.bottom {
+    position:absolute;
+    display:flex;
+    justify-content:center;
+    bottom: 25px;
+}
+
+.offset {
+    margin-top:50px;
 }
